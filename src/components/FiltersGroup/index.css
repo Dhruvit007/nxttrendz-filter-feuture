@@ -1,0 +1,85 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1f5f9;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+.input-element {
+  width: 90%;
+  height: 30px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-family: 'Roboto';
+  color: #0f172a;
+}
+.category-item-container {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.category-heading {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.category-item {
+  margin-bottom: 10px;
+}
+.category-btn {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  text-align: left;
+  font-family: 'Roboto';
+  color: #475569;
+}
+.rating-container-heading {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.rating-item-container {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.rating-item {
+}
+.rating-image {
+  width: 40%;
+}
+.rating-item-btn {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  margin-bottom: 2px;
+  border: none;
+  outline: none;
+}
+.clear-filter-btn {
+  border: solid 1px #0967d2;
+  color: #0967d2;
+  font-family: 'Roboto';
+  font-weight: bold;
+  padding: 5px 10px;
+  background-color: transparent;
+  outline: none;
+  border-radius: 4px;
+}
